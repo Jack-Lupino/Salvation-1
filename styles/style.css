@@ -21,6 +21,17 @@ h1 {
     text-shadow: 3px 3px 1px black;
 }
 
+a {
+    color: #770909;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(160, 33, 33);
+    text-decoration: underline;
+}
+
 #logo {
     display: block;
     margin: 0 auto;
