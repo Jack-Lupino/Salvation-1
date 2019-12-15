@@ -36,9 +36,9 @@ function setUserName() {
     }
 }
 
-if(!localStorage.getItem('name')) {
-    setUserName();
-  } else {
-    let storedName = localStorage.getItem('name');
-    heading.textContent = 'Salvation-1, ' + storedName + "!";
-  }
+// if(!localStorage.getItem('name')) {
+//     setUserName();
+//   } else {
+//     let storedName = localStorage.getItem('name');
+//     heading.textContent = 'Salvation-1, ' + storedName + "!";
+// }
