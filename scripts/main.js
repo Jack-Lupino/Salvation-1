@@ -6,6 +6,9 @@ document.getElementById('logo').onclick = function() {
 
 let fox = document.getElementById('Fox');
 let foxCounter = 1;
+fox.onmouseenter = function() {
+    $("h2").text("Foxie");
+}
 fox.onclick = function() {
     foxCounter %= 7;
     foxCounter++;
