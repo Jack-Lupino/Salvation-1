@@ -13,7 +13,7 @@ fox.onmouseleave = function() {
     $("h2").text("Main page");
 }
 $(heading).click(function() {
-    $(heading).css("color", "red");
+    $(this).text("boo");
 })
 fox.onclick = function() {
     foxCounter %= 7;
