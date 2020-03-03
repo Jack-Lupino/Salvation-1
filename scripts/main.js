@@ -12,6 +12,9 @@ fox.onmouseenter = function() {
 fox.onmouseleave = function() {
     $("h2").text("Main page");
 }
+$(heading).click(function() {
+    $(heading).css("text-color", "red");
+})
 fox.onclick = function() {
     foxCounter %= 7;
     foxCounter++;
