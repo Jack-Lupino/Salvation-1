@@ -9,6 +9,9 @@ let foxCounter = 1;
 fox.onmouseenter = function() {
     $("h2").text("Foxie");
 }
+fox.onmouseleave = function() {
+    $("h2").text("Main page");
+}
 fox.onclick = function() {
     foxCounter %= 7;
     foxCounter++;
